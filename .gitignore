@@ -1,0 +1,30 @@
+# Dépendances (ne JAMAIS pousser sur GitHub)
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Fichiers d'environnement & Clés secrètes
+.env
+.env.local
+*.env
+client/.env
+server/.env
+
+# Builds de production & Caches
+dist/
+client/dist/
+build/
+.vite/
+client/.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Fichiers système & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
